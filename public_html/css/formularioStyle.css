@@ -1,0 +1,27 @@
+/* 
+    Created on : 15/03/2022, 19:39:19
+    Author     : frank
+*/
+body{
+   
+}
+.container{
+    padding: 4em;
+}
+input{
+    height: 30px;
+}
+form{
+    background-color: darkorange;
+    font-family: arial;
+    font-size: 10px;
+    color: white;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ff6d00;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+

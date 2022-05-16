@@ -1,0 +1,26 @@
+function buscarCEP(){
+    let input = document.getElementById('cep').value;
+
+const ajax = new XMLHttpRequest();
+ajax.open('GET','https://viacep.com.br/ws/' + input + '/json/');
+ajax.send();
+
+ajax.onload = function (){
+    //document.getElementById('conteudo').innerHTML = this.responseText;
+    let obj = JSON.parse(this.responseText);
+    document.getElementById('cidade').innerHTML = 'CIDADE: ' +  obj.localidade;
+    document.getElementById('uf').innerHTML = 'ESTADO: ' +  obj.uf;
+    document.getElementById('ddd').innerHTML = 'DDD: : ' +  obj.ddd;
+}
+}
+
+
+{
+    "rua": "Rua Carlos Kummer",
+    "numero": "100",
+    "bairro": "Bairro Universitário",
+    "cep": "89898-000",
+    "cidade": "Itapiranga",
+    "estado": "SC",
+    "fone": "(49)3678-8700"
+}

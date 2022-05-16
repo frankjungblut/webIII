@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 15/03/2022, 19:18:23
+    Author     : frank
+*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#tudo{
+    width:1024px;
+    background-color: white;
+    margin: 0 auto;
+    border: black solid 1px;
+    position: absolute;
+}
+#topo{
+    width:1024px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+}
+#meio{
+    width:1024px;
+    background-color: white;
+    margin: 0 auto;
+    border: black solid 1px;
+}
+#left{
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 35%;
+   float: left;
+   border: black solid 1px;
+}
+#right{
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 64.7%;
+   float: right; 
+   border: black solid 1px;
+}
+#rodape{
+    width:1024px;
+    background-color: gray;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    
+}
